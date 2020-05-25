@@ -27,3 +27,18 @@ body
     top: calc(-5px/2);
     left: calc(30%-30px);
 }
+h1
+{
+    margin: 0;
+    padding: 0 0 30px;
+    text-align: center;
+}
+.loginBox p
+{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"];
