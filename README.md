@@ -4,7 +4,7 @@ A PIZZA web ,published in May 2020.
 #### AUTHOR
 By ALBERT OBWOGE
 ## Description
-The project,Delani Studio explains what it does,what kind of services are offered and how to contact them incase you are interested in the services.
+This project, explains PIZZA web application where your customers order different sizes of pizzas with one or more toppings.
 ## Setup/Installation Requirements
 Clone this repository to a location in your file system. git clone https://github.com/Albert-beg/DELANI-STUDIO.git, Open terminal command line then navigate to the root folder of the application. cd Akan-Names,Open index.html on your Browser.
 ## Known Bugs
