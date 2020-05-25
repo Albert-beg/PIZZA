@@ -40,5 +40,9 @@ h1
     font-weight: bold;
     color: #fff;
 }
-.loginBox input[type="text"],
-.loginBox input[type="password"];
+.box ul{
+    width: 120px;
+    float: left;
+    margin: 10px auto;
+    text-align: center;
+}
