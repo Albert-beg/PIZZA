@@ -3,91 +3,42 @@
   <head>
       <meta charset="utf-8">
     <title>My pizza webpage!</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="loginBox">
-        <img src="login.jpg" class="user">
-        <h1>login here</h1>
-        <form>
-            <p>Email</p>
-            <input type="text" name="" placeholder="Enter Email">
-            <p>password</p>
-            <input type="password" name="" placeholder="........">
-            <input type="submit" name="" value="Sign In">
-            <a href="#">Forget Password</a>
-        </form>
-    </div>
-    Welcome to my first webpage!
-    <img src="pizza 1.jpg" alt="A photo of pizza">
-    <img src="pizza2.jpg" alt="A photo of pizza">
-    <img src="pizza4.jpeg" alt="A photo of pizza">
-    <img src="pizza4.jpeg" alt="A photo of pizza">
-  <P>To order please select preferred size</P>
-  <form>
-    <input type='checkbox' name='size' value='small' checked> Small<br>
-    <p>Type of Crust</p>
-  <div class="Table">
-    <table>
-      <tr>
-        <th><input type='radio' name='Crust' value='Crispy' checked> Crispy<br></th>
-        <th><input type='radio' name='Crust' value='Stuffed' checked> Stuffed<br></th>
-        <th><input type='radio' name='Crust' value='Gluten-free' checked> Gluten-free<br></th>
-      </tr>
-    </table>
-      <div class="TOPPINGS">
-        <table>
-          <tr>
-            <th><input type='radio' name='TOPPINGS' value='Sausage' checked> Sausage<br></th>
-            <th><input type='radio' name='TOPPINGS' value='Mushroom' checked> Mushroom<br></th>
-            <th><input type='radio' name='TOPPINGS' value='Green Pepper' checked> Green Pepper<br></th>
-          </tr>
-        </table>
-    <input type='checkbox' name='size' value='medium' > Medium<br>
-    <p>Type of Crust</p>
-  <div class="Table">
-    <table>
-      <tr>
-        <th><input type='radio' name='Crust' value='Crispy' checked> Crispy<br></th>
-        <th><input type='radio' name='Crust' value='Stuffed' checked> Stuffed<br></th>
-        <th><input type='radio' name='Crust' value='Gluten-free' checked> Gluten-free<br></th>
-      </tr>
-    </table>
-    <H2>TOPPINGS</H2>
-      Pizza Toppings
-      <div class="TOPPINGS">
-        <table>
-          <tr>
-            <th><input type='radio' name='TOPPINGS' value='Sausage' checked> Sausage<br></th>
-            <th><input type='radio' name='TOPPINGS' value='Mushroom' checked> Mushroom<br></th>
-            <th><input type='radio' name='TOPPINGS' value='Green Pepper' checked> Green Pepper<br></th>
-          </tr>
-        </table>
-    <input type='checkbox' name='size' value='large' > Large<br>
-    <p>Type of Crust</p>
-  <div class="Table">
-    <table>
-      <tr>
-        <th><input type='radio' name='Crust' value='Crispy' checked> Crispy<br></th>
-        <th><input type='radio' name='Crust' value='Stuffed' checked> Stuffed<br></th>
-        <th><input type='radio' name='Crust' value='Gluten-free' checked> Gluten-free<br></th>
-      </tr>
-    </table>
- </div>
- <H3>TOPPINGS</H3>
- <div class="TOPPINGS">
-  <table>
-    <tr>
-      <th><input type='radio' name='TOPPINGS' value='Sausage' checked> Sausage<br></th>
-      <th><input type='radio' name='TOPPINGS' value='Mushroom' checked> Mushroom<br></th>
-      <th><input type='radio' name='TOPPINGS' value='Green Pepper' checked> Green Pepper<br></th>
-    </tr>
-  </table>
-  <div>
-      <ul>
-        <li><a href=""> Home</a></li>
-        <li><a href=""> Online Order</a></li>
-        <li><a href=""> Contact</a></li>
-      </ul>
-  </div>
+    <div class="container">
+      <div class="loginBox">
+         <img src="login.jpg" class="user"> 
+         <div class="form-group">
+           <div class="">
+             <label>username</label>
+            <label></label><input type="text" class="form-control" placeholder="please insert your email" value="">
+            <label>password</label>
+            <label></label><input type="text" class="form-control" placeholder="please insert your password" value="">
+            <button type="submit" class="btn btn-success">click here to login</button>
+           </div>
+         </div> 
+         <div class="form-group">
+           <div class="form-control">
+             <select class="toppings">
+              <option value="select an option"></option>
+              <option value="tomatoe">Tomatoe</option>
+              <option value="sausage">Sausage</option>
+              <option value="chicken">Chicken</option>
+             </select>
+           </div>
+         </div>  
+         <div class="form group">
+           <div class="form control">
+             <select class="sizes">
+              <option value="select an option"></option>
+              <option value="small">small</option>
+              <option value="medium">medium</option>
+              <option value="large">large</option>
+             </select>
+           </div>
+         </div>    
+    </div>  
+  </body>
 </html>
